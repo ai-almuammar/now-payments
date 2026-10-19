@@ -152,5 +152,12 @@ body>.ticker{position:relative;z-index:3;transform:rotate(-1.3deg);width:104%;ma
 
 .comparison-web .comparison-pair{grid-template-columns:minmax(0,1fr);gap:30px}.comparison-web .comparison-screen{aspect-ratio:auto;position:static}.comparison-web img{position:static;width:100%;height:auto;object-fit:contain}
 
-/* Keep the digital heading across the full section width. */
-#digital .section-head h2,#applications .section-head h2,#appStores .section-head h2{grid-column:1/-1;font-size:clamp(30px,4.5vw,64px);line-height:1.35;letter-spacing:0}
+
+/* Give every section heading its own row and let Arabic phrases wrap naturally. */
+.section-head{grid-template-columns:minmax(0,1fr);gap:20px}
+.section .section-head h2,.section h2{grid-column:1/-1;width:100%;max-width:none;min-width:0;font-size:clamp(28px,4.5vw,60px);line-height:1.4;letter-spacing:0;word-break:normal;overflow-wrap:normal;text-wrap:balance}
+.section-head>p{max-width:650px;margin:0;line-height:1.85}
+.kit-head{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+.kit-head p{max-width:650px;margin:0}
+.section h3{word-break:normal;overflow-wrap:normal;text-wrap:balance;line-height:1.5}
+@media(max-width:680px){.section-head{gap:16px}.section-head>.micro{margin-bottom:0}.kit-head{gap:16px}}
