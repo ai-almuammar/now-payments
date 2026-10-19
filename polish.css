@@ -153,4 +153,4 @@ body>.ticker{position:relative;z-index:3;transform:rotate(-1.3deg);width:104%;ma
 .comparison-web .comparison-pair{grid-template-columns:minmax(0,1fr);gap:30px}.comparison-web .comparison-screen{aspect-ratio:auto;position:static}.comparison-web img{position:static;width:100%;height:auto;object-fit:contain}
 
 /* Keep the digital heading across the full section width. */
-#digital .section-head h2{grid-column:1/-1;font-size:clamp(30px,4.5vw,64px);line-height:1.35;letter-spacing:0}
+#digital .section-head h2,#applications .section-head h2,#appStores .section-head h2{grid-column:1/-1;font-size:clamp(30px,4.5vw,64px);line-height:1.35;letter-spacing:0}
