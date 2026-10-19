@@ -164,5 +164,5 @@ body>.ticker{position:relative;z-index:3;transform:rotate(-1.3deg);width:104%;ma
 #pulse{width:96px;height:96px;min-height:96px;padding:0;border-radius:50%;justify-content:center;gap:0;font-size:22px;font-weight:700;flex-shrink:0}
 @media(max-width:680px){#pulse{width:80px;height:80px;min-height:80px;font-size:20px}}
 
-#pulse{bottom:-40px}.motion-world .motion-details{margin-top:85px}
-@media(max-width:680px){#pulse{bottom:-24px}.motion-world .motion-details{margin-top:65px}}
+#pulse{bottom:-72px}.motion-world .motion-details{margin-top:117px}
+@media(max-width:680px){#pulse{bottom:-48px}.motion-world .motion-details{margin-top:89px}}
